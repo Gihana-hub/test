@@ -17,7 +17,9 @@ public class Hornet extends GameObject implements Movable, WalkVisitor {
     public Hornet(Game game, Position position) {
         super(game, position);
         this.direction = Direction.DOWN;
+
         timer.start();
+
     }
 
     @Override

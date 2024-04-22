@@ -1,6 +1,7 @@
 package fr.ubx.poo.ugarden.game;
 
 import fr.ubx.poo.ugarden.go.personage.Gardener;
+import fr.ubx.poo.ugarden.go.personage.Hornet;
 
 
 public class Game {
@@ -45,4 +46,6 @@ public class Game {
         switchLevelRequested = false;
     }
 
+    public void addHornet(Hornet hornet) {
+    }
 }
